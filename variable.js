@@ -245,23 +245,6 @@ if (
   console.log("4-3", number3);
 }
 
-// }
-// if (number2 > number1 && number2 > number3 && number2 > number4) {
-//   if (number1 > number3 && number1 > number4);
-// } else {
-//   console.log(number1);
-// }
-// if (number3 > number1 && number3 > number2 && number1 > number2) {
-//   if (number1 > number3 && number1 > number4);
-// } else {
-//   console.log(number1);
-// }
-// if (number4 > number1 && number4 > number3 && number1 > number3) {
-//   if (number3 > number2 && number3 > number4);
-// } else {
-//   console.log(number3);
-// }
-
 let star = "";
 let n = 0;
 while (n < 9) {
