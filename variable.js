@@ -63,46 +63,46 @@
 // }
 
 // 1. 936-г 12д хуваагаад гарсан хариуг 9д хуваахад гарах үлдэгдлийг хэвлэнэ үү.
-let aToo;
-aToo = 936;
+// let aToo;
+// aToo = 936;
 
-console.log((aToo % 12) / 9);
+// console.log((aToo % 12) / 9);
 // 2. Гараас 0-100 хооронд тоон утга авч тохирох үсгэн тэмдэглэгээгээр онц эсвэл сайн эсэхийг буцаа.
-let grade;
-grade = 50;
+// let grade;
+// grade = 50;
 
-if (grade >= 90) {
-  console.log("A");
-} else if (grade >= 80 && grade <= 89) {
-  console.log("B");
-} else if (grade >= 70 && grade <= 79) {
-  console.log("C");
-} else if (grade >= 60 && grade <= 69) {
-  console.log("D");
-} else if (grade <= 59) {
-  console.log("F");
-}
+// if (grade >= 90) {
+//   console.log("A");
+// } else if (grade >= 80 && grade <= 89) {
+//   console.log("B");
+// } else if (grade >= 70 && grade <= 79) {
+//   console.log("C");
+// } else if (grade >= 60 && grade <= 69) {
+//   console.log("D");
+// } else if (grade <= 59) {
+//   console.log("F");
+// }
 
 // 3. Он, сараа гараас оруулахад тухайн сар хэд хоногтой болохыг харуул.
-let month;
-month = 7;
-if (month >= 13) {
-  console.log("saraa shalgana uu");
-} else if (month == 4 || month == 6 || month == 9 || month == 11) {
-  console.log("30 hongtoi");
-} else if (month == 2) {
-  console.log("29 hongtoi");
-} else if (
-  month == 1 ||
-  month == 3 ||
-  month == 5 ||
-  month == 7 ||
-  month == 8 ||
-  month == 10 ||
-  month == 12
-) {
-  console.log("31 hongtoi");
-}
+// let month;
+// month = 7;
+// if (month >= 13) {
+//   console.log("saraa shalgana uu");
+// } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+//   console.log("30 hongtoi");
+// } else if (month == 2) {
+//   console.log("29 hongtoi");
+// } else if (
+//   month == 1 ||
+//   month == 3 ||
+//   month == 5 ||
+//   month == 7 ||
+//   month == 8 ||
+//   month == 10 ||
+//   month == 12
+// ) {
+//   console.log("31 hongtoi");
+// }
 // 4. Өгөгдсөн тооны тэгш эсвэл сондгой эсэхийг шалгана уу.
 // let bToo;
 // bToo = 30;
@@ -172,10 +172,10 @@ if (month >= 13) {
 
 // 13.
 
-let number1 = 1000,
-  number2 = 800,
-  number3 = 900,
-  number4 = 1100;
+// let number1 = 1000,
+//   number2 = 800,
+//   number3 = 900,
+//   number4 = 1100;
 
 // if (number2 >= number1 && number2 >= number3 && number1 >= number3) {
 //   console.log(number2, number1, number3);
@@ -192,64 +192,90 @@ let number1 = 1000,
 // }
 
 // 14.
-if (
-  number1 > number2 &&
-  number1 > number3 &&
-  number1 > number4 &&
-  number2 > number3 &&
-  number2 > number4
-) {
-  console.log("1-2", number2);
-} else if (("1-3", number3 > number2 && number3 > number4)) {
-  console.log("1-3", number3);
-} else if (number4 > number3 && number4 > number2) {
-  console.log("1-4", number4);
-}
-if (
-  number2 > number1 &&
-  number2 > number3 &&
-  number2 > number4 &&
-  number1 > number3 &&
-  number1 > number4
-) {
-  console.log("2-1", number1);
-} else if (number3 > number1 && number3 > number4) {
-  console.log("2-3", number3);
-} else if (number4 > number3 && number4 > number1) {
-  console.log("2-4", number4);
-}
-if (
-  number3 > number1 &&
-  number3 > number2 &&
-  number3 > number4 &&
-  number1 > number2 &&
-  number1 > number4
-) {
-  console.log("3-1", number1);
-} else if (number2 > number1 && number2 > number4) {
-  console.log("3-2", number2);
-} else if (number4 > number1 && number4 > number2) {
-  console.log("3-4", number4);
-}
-if (
-  number4 > number1 &&
-  number4 > number2 &&
-  number4 > number3 &&
-  number1 > number2 &&
-  number1 > number3
-) {
-  console.log("4-1", number1);
-} else if (number2 > number1 && number2 > number3) {
-  console.log("4-2", number2);
-} else if (number3 > number1 && number3 > number2) {
-  console.log("4-3", number3);
-}
+// if (
+//   number1 > number2 &&
+//   number1 > number3 &&
+//   number1 > number4 &&
+//   number2 > number3 &&
+//   number2 > number4
+// ) {
+//   console.log("1-2", number2);
+// } else if (("1-3", number3 > number2 && number3 > number4)) {
+//   console.log("1-3", number3);
+// } else if (number4 > number3 && number4 > number2) {
+//   console.log("1-4", number4);
+// }
+// if (
+//   number2 > number1 &&
+//   number2 > number3 &&
+//   number2 > number4 &&
+//   number1 > number3 &&
+//   number1 > number4
+// ) {
+//   console.log("2-1", number1);
+// } else if (number3 > number1 && number3 > number4) {
+//   console.log("2-3", number3);
+// } else if (number4 > number3 && number4 > number1) {
+//   console.log("2-4", number4);
+// }
+// if (
+//   number3 > number1 &&
+//   number3 > number2 &&
+//   number3 > number4 &&
+//   number1 > number2 &&
+//   number1 > number4
+// ) {
+//   console.log("3-1", number1);
+// } else if (number2 > number1 && number2 > number4) {
+//   console.log("3-2", number2);
+// } else if (number4 > number1 && number4 > number2) {
+//   console.log("3-4", number4);
+// }
+// if (
+//   number4 > number1 &&
+//   number4 > number2 &&
+//   number4 > number3 &&
+//   number1 > number2 &&
+//   number1 > number3
+// ) {
+//   console.log("4-1", number1);
+// } else if (number2 > number1 && number2 > number3) {
+//   console.log("4-2", number2);
+// } else if (number3 > number1 && number3 > number2) {
+//   console.log("4-3", number3);
+// }
 
-let star = "";
-let n = 0;
-while (n < 9) {
-  n = n + 1;
-  star = star;
-  star = star + " *";
-  console.log(star);
+// let star = "";
+// let n = 0;
+// while (n < 9) {
+//   n = n + 1;
+//   star = star;
+//   star = star + " *";
+//   console.log(star);
+// }
+
+// 23.
+
+// let numbers;
+// i = 1;
+// a = 4219;
+
+// while (a > 0) {
+//   numbers = a % 10;
+//   if (numbers % 2 == 0) {
+//     i = i * numbers;
+//   }
+//   a = Math.floor(a / 10);
+// }
+// console.log(i);
+
+// 21;
+
+let n = 3;
+
+while (n <= 37) {
+  if (n % 5 === 0) {
+    console.log(n);
+  }
+  n++;
 }

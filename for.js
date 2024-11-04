@@ -81,31 +81,28 @@ totalExpense =>
 
  */
 
-const budget = 100;
-let day = 1; // 1,2,3,4,5,6,7
+// const budget = 100;
+// let day = 1;
 
-for (let totalExpense = 0; totalExpense <= budget; ) {
-  let dayExpense;
+// for (let totalExpense = 0; totalExpense <= budget; day++) {
+//   let dayExpense;
 
-  if (day <= 5) {
-    dayExpense = 5;
-  } else if (day > 5 && day <= 7) {
-    dayExpense = 10;
-  }
+//   if (day <= 5) {
+//     dayExpense = 5;
+//   } else if (day > 5 && day <= 7) {
+//     dayExpense = 10;
+//   }
 
-  totalExpense = totalExpense + dayExpense;
+//   totalExpense = totalExpense + dayExpense;
 
-  if (totalExpense >= 80 && totalExpense <= 100) {
-    console.log("Таны нийт зардал 100$ руу ойртож байна шүү");
-  } else if (totalExpense > 99) {
-    console.log("Та зардлын хязгаарт хүрлээ!");
-  }
+//   if (totalExpense >= 80 && totalExpense <= 100) {
+//     console.log("Таны нийт зардал 100$ руу ойртож байна шүү");
+//   } else if (totalExpense > 99) {
+//     console.log("Та зардлын хязгаарт хүрлээ!");
+//   }
 
-  day++;
-
-  if (day >= 7) {
-    day = 1;
-  }
-}
-
-console.log(totalExpense);
+//   if (day >= 7) {
+//     day = 1;
+//   }
+//   console.log(totalExpense);
+// }
