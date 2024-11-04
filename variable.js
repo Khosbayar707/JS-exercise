@@ -271,11 +271,31 @@
 
 // 21;
 
-let n = 3;
+// let n = 3;
 
-while (n <= 37) {
-  if (n % 5 === 0) {
-    console.log(n);
-  }
+// while (n <= 37) {
+//   if (n % 5 === 0) {
+//     console.log(n);
+//   }
+//   n++;
+// }
+
+// 1.
+// let star = "";
+// let n = 0;
+// while (n < 5) {
+//   n = n + 1;
+//   star = " * * * * *";
+//   console.log(star);
+// }
+
+// 3.
+
+let star = "";
+let n = 0;
+while (n < 1) {
+  star = "    *    ";
   n++;
+  console.log(star)
 }
+else if(n > 1){star = "   * *   "}
