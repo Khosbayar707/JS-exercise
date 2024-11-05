@@ -81,15 +81,17 @@ console.log(numbers);
 
 // Дээрх array доторх тоонуудын тэгш болон сондгой тоо тус тус хэд байгааг ол.
 
-odd = [];
-even = [];
+// odd = [];
+// even = [];
 
-for (let i = 1; i < numbers.length; i++) {
-  if (numbers[i] % 2 !== 0) {
-    odd.push(numbers[i]);
-  } else {
-    even.push(numbers[i]);
-  }
-}
-console.log(odd.length + 1);
-console.log(even.length + 1);
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] % 2 !== 0) {
+//     odd.push(numbers[i]);
+//   } else {
+//     even.push(numbers[i]);
+//   }
+// }
+// console.log(odd.length + 1);
+// console.log(even.length + 1);
+let odd;
+event;

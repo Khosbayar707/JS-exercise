@@ -291,11 +291,17 @@
 
 // 3.
 
-let star = "";
-let n = 0;
-while (n < 1) {
-  star = "    *    ";
-  n++;
-  console.log(star)
-}
-else if(n > 1){star = "   * *   "}
+// let star = "";
+// let n = 0;
+// while (n < 1) {
+//   star = "    *    ";
+//   n++;
+//   console.log(star)
+// }
+// else if(n > 1){star = "   * *   "}
+
+const n = 10;
+let result = "";
+for (let k = 0; k < 10; k++) {
+  let i = 0;
+}while(i<n; i++)
