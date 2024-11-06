@@ -62,4 +62,19 @@ function findDigitCount(number, digit) {
   console.log(digitCount);
 }
 
-findDigitCount(1215, 1);
+findDigitCount(1999, 9);
+
+function counter(number) {
+  for (let i = 0; i < number; i++) {
+    let count = 1;
+    j = 1;
+    for (let k = 1; k < i + 1; k++) {
+      j++;
+      count += " " + j;
+    }
+    console.log(count);
+  }
+  return;
+}
+
+counter(10);
